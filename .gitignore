@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# ftpAuthentication
+*.ftppass
+
+# Node Modules
+node_modules

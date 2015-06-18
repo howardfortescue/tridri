@@ -11,13 +11,27 @@ module.exports = function(grunt) {
         src: 'src/<%= pkg.name %>.js',
         dest: 'build/<%= pkg.name %>.min.js'
       }
+    },
+    'ftp-deploy': {
+      build: {
+        auth: {
+          host: '78.33.15.210',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'src/',
+        dest: '/test/',
+        exclusions: ['**/.DS_Store', '**/Thumbs.db']
+      }
     }
   });
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-ftp-deploy');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['ftp-deploy']);
+
 
 };
