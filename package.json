@@ -1,0 +1,19 @@
+{
+  "name": "tridri",
+  "version": "1.0.0",
+  "description": "Repositry for new site on A2Z 2015-06-18",
+  "main": "newindex.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howardfortescue/tridri.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howardfortescue/tridri/issues"
+  },
+  "homepage": "https://github.com/howardfortescue/tridri#readme"
+}
