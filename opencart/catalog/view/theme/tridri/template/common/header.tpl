@@ -40,7 +40,7 @@
 </head>
 <body class="<?php echo $class; ?>">
   above nav
-<nav id="top">
+<!--<nav id="top">
   <div class="container">
     <?php echo $currency; ?>
     <?php echo $language; ?>
@@ -67,7 +67,7 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav>-->
 below nav & above header
 <header>
   <div class="container">
