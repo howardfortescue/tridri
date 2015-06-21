@@ -77,10 +77,11 @@ below nav & above header
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
           <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a>Temporary Site - New site under construction</h1>
+          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
           <?php } ?>
         </div>
       </div>
+      <div class="col-sm-3"><h1><?php echo "Temporary Site - New site under construction"; ?></h1></div>
       <!--<div class="col-sm-5"><?php echo $search; ?>
       </div>
       <div class="col-sm-3"><?php echo $cart; ?></div>-->
