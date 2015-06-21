@@ -81,7 +81,7 @@ below nav & above header
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-3"><h1><?php echo "Temporary Site - New site under construction"; ?></h1></div>
+      <div><h1><?php echo "Temporary Site - New site under construction"; ?></h1></div>
       <!--<div class="col-sm-5"><?php echo $search; ?>
       </div>
       <div class="col-sm-3"><?php echo $cart; ?></div>-->
