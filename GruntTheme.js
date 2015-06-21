@@ -4,14 +4,14 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     'ftp-deploy': {
-      build: {
+      build:{
         auth: {
           host: '78.33.15.210',
           port: 21,
           authKey: 'key1'
         },
-        src: 'src/',
-        dest: '/test/',
+        src: 'opencart/catalog/view/theme/',
+        dest: 'catalog/view/theme/',
         exclusions: ['**/.DS_Store', '**/Thumbs.db']
       }
     }
@@ -21,6 +21,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['ftp-deploy']);
-
 
 };
