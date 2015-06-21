@@ -87,7 +87,7 @@ below nav & above header
     </div>
   </div>
 </header>
-below header & above categories
+below header & above categories<!--
 <?php if ($categories) { ?>
 <div class="container">
   <nav id="menu" class="navbar">
@@ -119,5 +119,5 @@ below header & above categories
     </div>
   </nav>
 </div>
-<?php } ?>
+<?php } ?>-->
 below categories
