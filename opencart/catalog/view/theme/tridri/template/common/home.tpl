@@ -1,5 +1,5 @@
 above header
-<?php echo $slimHeader; ?>
+<?php echo $header; ?>
 below header
 <div class="container">
   <div class="row"><?php echo $column_left; ?>
