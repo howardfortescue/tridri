@@ -39,7 +39,7 @@
 <?php echo $google_analytics; ?>
 </head>
 <body class="<?php echo $class; ?>">
-  above nav
+
 <!--<nav id="top">
   <div class="container">
     <?php echo $currency; ?>
@@ -68,7 +68,7 @@
     </div>
   </div>
 </nav>-->
-below nav & above header
+
 <header>
   <div class="container">
     <div class="row">
@@ -88,7 +88,7 @@ below nav & above header
     </div>
   </div>
 </header>
-below header & above categories<!--
+<!--
 <?php if ($categories) { ?>
 <div class="container">
   <nav id="menu" class="navbar">
@@ -121,4 +121,3 @@ below header & above categories<!--
   </nav>
 </div>
 <?php } ?>-->
-below categories
