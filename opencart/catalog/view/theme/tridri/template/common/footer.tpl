@@ -11,14 +11,14 @@
         </ul>
       </div>
       <?php } ?>
-      <div class="col-sm-3">
+      <!--<div class="col-sm-3">
         <h5><?php echo $text_service; ?></h5>
         <ul class="list-unstyled">
           <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
           <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
           <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
         </ul>
-      </div>
+      </div>-->
       <div class="col-sm-3">
         <h5><?php echo $text_extra; ?></h5>
         <ul class="list-unstyled">

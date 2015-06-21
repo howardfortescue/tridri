@@ -1,4 +1,3 @@
-above header
 <?php echo $header; ?>
 below header
 <div class="container">
