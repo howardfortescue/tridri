@@ -3,9 +3,13 @@
    width: 100%; /* for IE 6 */
 }
 
-.ribHeroText { 
+.ribHeroText {
    position: absolute;
    top: 200px;
    left: 0;
    width: 100%;
+   color: white;
+   font: bold;
+   letter-spacing: +1px;  
+   padding: 10px;
 }
