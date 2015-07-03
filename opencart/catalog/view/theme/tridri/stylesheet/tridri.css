@@ -3,7 +3,7 @@
    width: 100%; /* for IE 6 */
 }
 
-h2 { 
+.ribHeroText { 
    position: absolute;
    top: 200px;
    left: 0;
